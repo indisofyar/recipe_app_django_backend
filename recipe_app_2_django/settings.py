@@ -67,6 +67,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'recipe_app_2_django.urls'
+CSRF_TRUSTED_ORIGINS = ['https:*//recipeappdjangobackend-production.up.railway.app/']
+
 
 TEMPLATES = [
     {
