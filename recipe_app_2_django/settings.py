@@ -52,6 +52,7 @@ FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
+    "https://recipe-app-frontend-92d44.web.app/"
 ]
 
 MIDDLEWARE = [
