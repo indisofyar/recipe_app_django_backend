@@ -4,7 +4,7 @@ from recipe import views
 urlpatterns = [
     path('latest-recipes/', views.LatestRecipeList.as_view()),
     path('recipe/<slug:product_slug>', views.RecipeDetail.as_view()),
-    path('all-days', views.AllDays.as_view()),
+    path('all-days/', views.AllDays.as_view()),
     path('recipes/search/', views.search),
     path('cuisines/', views.AllCuisines.as_view()),
     path('meal-settings/', views.MealSettings.as_view()),
